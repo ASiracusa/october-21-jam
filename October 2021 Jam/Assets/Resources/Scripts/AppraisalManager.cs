@@ -35,6 +35,9 @@ public class AppraisalManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         
         magicItem = new RingItem();
+        foreach (Vector2Int coord in ((RingItem)magicItem).runes) {
+            Debug.Log(coord);
+        }
 
         yield return null;
     }

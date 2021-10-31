@@ -55,5 +55,33 @@ public enum Ability {
 
 public class Constants
 {
-    
+    public static readonly Ability[] GEM_COLOR_ABILITIES = new Ability[] {
+        Ability.Strength,
+        Ability.Leeching,
+        Ability.Regeneration,
+        Ability.Health,
+        Ability.Blindness,
+        Ability.Slowness,
+        Ability.Petrification,
+        Ability.Confusion,
+        Ability.Speed,
+        Ability.Protection,
+        Ability.Invisibility,
+        Ability.Divination
+    };
+
+    public static readonly GemCut[] PRIMARY_GEM_CUTS = new GemCut[] {
+        GemCut.Trap,
+        GemCut.Rose,
+        GemCut.Lozenge,
+        GemCut.Marigold,
+        GemCut.Marigold,
+        GemCut.Trap,
+        GemCut.Table,
+        GemCut.Point,
+        GemCut.Rose,
+        GemCut.Table,
+        GemCut.Point,
+        GemCut.Lozenge
+    };
 }
